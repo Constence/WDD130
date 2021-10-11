@@ -1,0 +1,9 @@
+body{ 
+    background-color: gray;
+}
+
+.open_img{ 
+    height: 100%; 
+    max-width: 100%;
+  
+}
