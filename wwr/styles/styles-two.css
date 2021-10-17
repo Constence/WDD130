@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans+Condensed:wght@300&display=swap'); 
+
 #content{ 
 
     max-width: 1600px; 
@@ -9,40 +11,61 @@ nav a{
     text-align: center;
     color:white; 
     text-decoration: none;
+    font-family: 'Condensed', cursive; 
+    padding: 35px;
     
 } 
 #hero-msg h1 { 
 
     text-align: center;
+    font-family: 'Bebas Neue ', cursive;
 }
+
+
 
 #hero-msg h4{ 
 
     text-align: center;
+    font-family: 'Bebas Neue ', cursive;
+
 }
 .button-box{ 
     text-align: center;
+    font-family: 'Bebas Neue ', cursive;
 
 }
 main section{ 
     text-align: center;
+    font-family: 'Bebas Neue ', cursive;
 
+}
+
+main section img{ 
+
+    box-sizing: border-box; 
 }
 
 #background{ 
 
     height: 725px;
     background-color:#1c829c; 
+    
 }
 
 body{ 
     background-color:#045e8b; 
+    font-family: 'Condensed', cursive;
+    font-size:22px; 
+    margin: 0;
+    padding: 0;
+
 
 }
 header{
 
     background-color:#ffa033;
     font-size: 30px;
+    font-family: 'Bebas Neue ', cursive; 
     
 
 }
@@ -55,7 +78,17 @@ nav a:hover{
     background-color:#FFC533;
     color:white; 
     text-decoration: none;
+    font-family: 'Bebas Neue ', cursive;
+    font-size: 18px; 
+    padding: 15px 30px; 
+    margin-top: 50px;
+    border-radius: 5px; 
 
+}
+
+.card-img{ 
+
+    border: 10px solid #ffa033;
 }
 .book:hover, .join:hover{
 
@@ -66,55 +99,95 @@ nav a:hover{
 .msg{
 
     background-color:#FFC533;
+    line-height: 1.5em;
+    padding: 35px;
 }
-footer{
-
-    background-color:#ffa033;
-}
-
-
 
 .home-title{
 color:white;
+font-family: 'Bebas Neue ', cursive;
+font-size:65px; 
+font-size: 2em;
+margin-top: 10px;
 
 }
 h4{
 
     color:white; 
+    font-family: 'Condensed', cursive;
+}
+
+h2{ 
+    margin: 0; 
 }
 
 
+.logo{ 
+
+    width: 80px;
+}
+#logo_link{ 
+    padding-top: 5px;
+}
+
 .msg h2{
     color:#045e8b;  
+    
 }
 .msg p{
 
     color:black; 
+    font-family: 'Condensed', cursive;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+
+footer{
+    padding: 25px 50px;
+    background-color:#ffa033;
+    margin-top: 200px;
+    text-decoration: none; 
 }
 footer h3{
     color:white; 
-    text-decoration: underline; 
+    text-decoration: none; 
+    font-family: 'Condensed', cursive;
 }
 footer a{
 
     color:white; 
     text-decoration: none;
+    font-family: 'Condensed', cursive;
 }
 footer a:hover{
-
+    text-decoration: underline; 
     color:navy; 
+}
+footer .social img{ 
+
+    padding-top: 15px;
 }
 
 .join{
 
     color:black; 
+    font-family: 'Bebas Neue ', cursive;
+    font-size: 20px;
 }
 
 .icon {
-    width: 80px;
+    width: 100px;
+    padding-top: 10px;
+    
 }
 
 #hero-img {
     width:100%; 
 }
         
+.rivers-card, .camping-card, .rapids-card, .mountains{ 
+
+    margin: 200px 0;
+}
+
