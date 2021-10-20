@@ -1,0 +1,87 @@
+body, h1, h2, h3, h4, h5, h6, .email, .name {
+    margin: 0; 
+    padding: 0;
+    
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap:5px;    
+}
+
+.title{ 
+grid-column: 2/4;
+grid-row: 1/2; 
+background-color: white;
+text-align: center;
+margin: 10px;
+
+}
+
+img {
+    max-width: 500px;
+    min-height: 900px;
+    grid-column: 1/2;
+    grid-row: 1/-1;  
+}
+.download {
+    grid-column: 2/4;
+    grid-row: 2/3; 
+    background-color: white;
+    text-align: center;
+}
+.email {
+    grid-column: 2/4;
+    grid-row: 3/4; 
+    background-color: white;
+    text-align: left;
+    max-width: 700px;
+    max-height: 75px;
+    min-width: 700px;
+    min-height: 75px;
+    border-radius: 7px;
+    border: 1px gray solid;
+    padding-left: 10px;
+}
+.name {
+    grid-column: 2/4;
+    grid-row: 4/5; 
+    background-color: white;
+    text-align: left;
+    max-width: 700px;
+    max-height: 75px;
+    min-height: 75px;
+    min-width: 700px;
+    border-radius: 7px;
+    border: 1px gray solid;
+    padding-left: 10px;
+
+}
+.check {
+    grid-column: 2/4;
+    grid-row: 5/6; 
+    background-color: white;
+    text-align: center;
+
+}
+
+.subscribe{ 
+    background-color:#ffa033;
+    margin-left: 150px;
+    color:white;
+    grid-column: 2/4;
+    grid-row: 6/-1; 
+    text-align: center;
+    border-radius: 15px; 
+    padding: 20px; 
+    max-height:300px ;
+    max-width:300px;
+}
+
+.subscribe :hover{ 
+    background-color:#fabf7c;
+} 
+.padding {
+    padding: 30px;
+}
