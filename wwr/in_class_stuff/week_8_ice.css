@@ -1,0 +1,51 @@
+
+
+body{ 
+
+display: grid;
+grid-template-rows: auto;
+justify-items: center;
+grid-gap: 5px;
+}
+
+img{ 
+    width: 50%; 
+    height: 70%; 
+    padding: 40px;
+    grid-row: 1/2; 
+    margin-bottom:-90px;
+    margin-top:-30px; 
+}
+
+.sweet{ 
+    grid-row: 2/3; 
+    font-family: 'Heebo', sans-serif;;
+    color: rgba(75, 74, 74, 0.623);
+    text-align: center;
+    font-size: 50px;
+    margin-top: -100px; 
+}
+
+.model{ 
+    grid-row: 3/4; 
+    font-family: 'Heebo', sans-serif;
+    color: rgba(116, 114, 114, 0.623);
+    text-align: center;
+    font-size: 30px;
+    margin:0 auto; 
+    margin-top:-20px;
+    font-weight: lighter; 
+}
+.ok{ 
+    font-family: 'Heebo', sans-serif; 
+    margin-top: 30px; 
+    background-color:#1596c5;
+    color:white;
+    grid-row: 4/5; 
+    text-align: center;
+    border-radius: 5px;
+    border: black, 2px , ridge;
+    padding: 6px; 
+    height:40px;
+    width:120px;
+}
