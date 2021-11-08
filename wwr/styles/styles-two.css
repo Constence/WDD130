@@ -14,6 +14,7 @@ nav{
 
     display: flex;
     justify-content: space-around;
+    
 }
 
 nav a{ 
@@ -107,9 +108,10 @@ header{
 }
 nav a:hover{
 
-    background-color:#1c829c; 
-    color:navy; 
+    background-color:#FFC533; 
+    color:black; 
     opacity: 0.5;
+
 }
 .book, .join {
     background-color:#FFC533;
@@ -144,12 +146,14 @@ nav a:hover{
 }
 
 
+
 .home-title{
 color:white;
 font-family: 'Bebas Neue ', cursive;
 font-size:65px; 
 font-size: 2em;
 margin-top: 10px;
+text-shadow: 2px 2px black;
 
 }
 h4{
@@ -188,13 +192,16 @@ h2{
 
 
 footer{
-    padding: 25px 50px;
+    padding: 40px 50px;
+    padding-left: 110px; 
+    padding-right: 90px; 
     background-color:#ffa033;
     margin-top: 200px;
     text-decoration: none; 
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size: 21px;
 
 }
 
@@ -215,6 +222,7 @@ footer a:hover{
 }
 footer .social img{ 
 
+    text-decoration: none;
     padding-top: 15px;
 }
 
@@ -223,6 +231,7 @@ footer .social img{
     color:black; 
     font-family: 'Bebas Neue ', cursive;
     font-size: 20px;
+    background-color:#ffa033;
 }
 
 .icon {
@@ -263,7 +272,12 @@ footer .social img{
 .rivers-card{ 
  
     grid-column: 2/4;
-    grid-row: 2/3;
+    grid-row: 2/3; 
+}
+
+.rivers-word{ 
+
+padding:10px; 
 }
 
 .camping-card{ 
@@ -286,7 +300,8 @@ footer .social img{
 
 #background { 
     grid-column:1/11;
-    grid-row: 4/9;
+    grid-row: 4/9; 
+    padding-bottom: 60px; 
 
 }
 
