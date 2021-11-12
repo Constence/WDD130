@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+ 
+body {
+    background-color: rgb(29, 28, 28);
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+ 
+main {
+    margin-top: 50px;
+    height: 700px;
+    width: 400px;
+    background-color: white;
+    border-radius: 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 125px;
+    justify-content: center;
+    justify-items: center;
+    overflow: hidden;
+}
+ 
+.image {
+    width: 400px;
+}
+ 
+.text {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+ 
+h4 {
+    color: rgb(88, 88, 138);
+    font-weight: 300;
+   
+}
+ 
+p {
+    color: rgb(119, 117, 117);
+    padding: 28px;
+    font-size: 20px;
+    font-weight: 450;
+}
+ 
+h1 {
+    font-weight: 550;
+    margin-top: -150;
+    font-style: bold;
+    font-family: 'Patua One', cursive;
+}
+ 
+ .picture{
+    width: 100%;
+    border-radius: 5% 5% 0 0;
+    justify-content: center;
+    justify-items: center;
+}
+ 
+h4{
+    color: rgb(3, 63, 119);
+}
+ 
+.boxes {
+border-radius: 0 0 10px 10px;
+color: white;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr ;
+grid-template-rows: 125px;
+text-align: center;
+justify-content: center;
+width: 400px;
+margin-bottom: 0;
+font-weight: 200;
+font-size: 24px;
+}
+ 
+.read{
+    padding-top: 18px;
+    grid-row: 1/-1;
+    grid-column: 1/2;
+    padding: 10px;
+    border-right: 1.5px gray solid ;
+    background-color: rgb(3, 63, 119);
+    margin-bottom: -4px;
+   
+}
+ 
+.views{
+ 
+    grid-row: 1/-1;
+    grid-column: 2/3;
+    padding: 10px;
+    border-right: 1.5px gray solid ;
+    background-color: rgb(3, 63, 119);
+    margin-bottom: -4px;
+    padding-top: 18px;
+   
+}
+ 
+.comments{
+ 
+    grid-row: 1/-1;
+    grid-column: 3/4;
+    padding: 10px;
+    border: none;
+    background-color: rgb(3, 63, 119);
+    margin-bottom: -4px;
+    margin-right: -3px;
+    padding-top: 18px;
+}
+ 
