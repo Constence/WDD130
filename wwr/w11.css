@@ -1,0 +1,30 @@
+body{ 
+
+    background-color: burlywood;
+}
+
+main{ 
+display: grid;  
+grid-template-rows: 1fr 1fr 1fr ;
+grid-template-columns: 1fr 1fr;
+}
+
+.words{ 
+    grid-column:1/2;
+    grid-row:2/3;
+    padding: 20px; 
+    margin: 30px; 
+    margin-top: -30px; 
+    font-size: 2.1em;
+    color: whitesmoke; 
+}
+
+.img{ 
+    grid-column:2/4;
+    grid-row:2/3;
+    margin-left: 120px; 
+}
+
+img{ 
+    box-shadow: 10px 10px 10px black;
+}
