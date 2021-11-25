@@ -11,15 +11,36 @@ body{
     z-index: 1; 
     margin-left: -10px;
  }
+
+ .div_info{ 
+    background-color: #CCD5AE;  
+
+ }
 nav{ 
-    background-color: #D4A373;
     text-align: center;
     text-transform: none;
-    padding: 10px; 
-    margin-top: -140px; 
+    margin-top: -200px; 
+    margin-left: 20s0px; 
     padding: 100px 100px 0px 100px; 
     font-size: 2.3em; 
+    list-style-type: none;
+    display: flex;
 }
+
+  nav a {
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 20px;
+  }
+
+  nav a:link, nav a:visited {
+    color: #D4A373;
+  }
+
+  nav a:hover {
+    color: #FAEDCD;
+  }
 
  /* main pagee info */ 
 .page_one_main{ 
