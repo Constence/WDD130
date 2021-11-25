@@ -24,24 +24,53 @@ nav{
  /* main pagee info */ 
 .page_one_main{ 
     display: grid;  
-    grid-template-rows: 10px 1fr 30px 30px 10px 1fr 30px 30px 10px 1fr;
-    grid-template-columns: 10px 1fr 1fr 10px ;
+    grid-template-rows: 1fr 30px 1fr 30px 1fr;
+    grid-template-columns: 1fr 1fr ;
 }
 
+
+.book-worm{ 
+    grid-column: 1/-1;
+    grid-row: 1/2; 
+
+}
 .top-img{ 
-    grid-column: 2/4;
-    grid-row: 2/3; 
+    grid-column: 1/-1;
+    grid-row: 1/2 ; 
 }
 
 
 .title_one{ 
-    grid-row: 5/6;
-    grid-column: 2/4; 
+    grid-column: 1/-1;
+    grid-row: 2/3; 
     font-size: 1.8em; 
     width:100%; 
 }
 
-.info_img-one{ 
+.text-one{ 
+    grid-column: 1/2;
+    grid-row: 3/4; 
 
+}
+
+.info_img-one{ 
+    grid-column: 2/3;
+    grid-row: 3/4; 
+
+}
+
+.title_two{ 
+    grid-column: 1/-1;
+    grid-row: 4/5; 
+}
+
+.text-two{ 
+    grid-column: 1/2;
+    grid-row: 5/6; 
+}
+
+.info_img-two{ 
+    grid-column: 2/3;
+    grid-row: 5/6; 
 
 }
