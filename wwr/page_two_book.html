@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="styles/styles-books.css">
     <title>Book Worm</title>
 </head>
 <body>
 
     <header>
-        <a id="logo_link" href="index.html">
-            <img class="logo" src="images/book_worm_logo.20.png" alt="book_worm Logo" width="300" height="300">
-        </a>
-         
-        <nav >
-            <a href="index_book.html"> Home</a>
-            <a href="page_two_book.html"> Page 2</a>
-            <a href="page_three_book.html"> Page 3</a>
-            <a href="site-plan_books.html"> Site Plan</a>
-            <a href="contactus.html">Contact Us</a>
-        </nav>
+        <div class = "div_info"> 
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/book_worm_logo.20.png" alt="book_worm Logo" width="150" height="140">
+            </a>
+            <nav >
+                <a href="index_book.html"> Home</a>
+                <a href="page_two_book.html"> Page 2</a>
+                <a href="page_three_book.html"> Page 3</a>
+                <a href="site-plan_books.html"> Site Plan</a>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+        </div>        
         
     </header>
     <main class = "page_two_main"> 
@@ -62,7 +64,29 @@
         <img src="images/it_ends_with_us.jpg" alt="image for page" width="150" height="250">
         
     </div>
-    </main>
+
+    <form action="action_page.php" method="post">
+        <h1 class = 'log-in-title'> Log in </h1>
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+      
+        <div class="container" style="background-color:#FAEDCD">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+    </form> 
+      
+</main>
 
 
 

@@ -118,7 +118,7 @@ nav{
     grid-row: 3/4; 
     margin-top: 180px; 
     margin-left: 35px;
-
+    box-shadow: 5px 5px 10px black;
 }
 
 .info_img-one:hover{ 
@@ -158,12 +158,167 @@ nav{
     grid-row: 5/6; 
     margin-top: 120px; 
     margin-left: 35px;
+    box-shadow: 5px 5px 10px black;
 }
 
 .info_img-two:hover{ 
 
     opacity: 0.7;
 }
+
+/*Footer stuff - page one  */ 
+
+
+footer{ 
+    padding: 40px 50px;
+    padding-left: 110px; 
+    padding-right: 90px; 
+    background-color:#D4A373;
+    margin-top: 200px;
+    text-decoration: none; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 28px;
+} 
+
+footer a{
+    color:#CCD5AE; 
+    text-decoration: none;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+footer a:hover{
+    text-decoration: underline; 
+    color:#E9EDC9; 
+}
+
+
+
+/*PAGE TWO*/ 
+
+
+
+/*Nav - page two */ 
+.logo{ 
+    z-index: 1; 
+    margin-left: -10px;
+ }
+
+ .div_info{ 
+    background-color: #CCD5AE;  
+
+ }
+nav{ 
+    text-align: center;
+    text-transform: none;
+    margin-top: -200px; 
+    margin-left: 200px; 
+    padding: 100px 100px 0px 100px; 
+    font-size: 2.3em; 
+    list-style-type: none;
+    display: flex;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-weight: bold;
+}
+
+  nav a {
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 20px;
+  }
+
+  nav a:link, nav a:visited {
+    color: #D4A373;
+  }
+
+  nav a:hover {
+    color: #FAEDCD;
+  }
+
+
+
+
+
+/* The sign up stuff */
+
+
+     /* Bordered form */
+form {
+    border: 3px solid white;
+    margin: 120px; 
+    font-family:  'Noto Sans Mono', monospace; 
+  }
+  
+
+.log-in-title{ 
+    margin:30px; 
+    margin-left: 550px; 
+    font-size: 2.8em;
+    color:#D4A373; 
+
+  }
+            /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #CCD5AE;
+    box-sizing: border-box;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-weight: 900;
+  }
+  
+        /* Set a style for all buttons */
+  button {
+    background-color: #b2c27e;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: 'Zen Maru Gothic', sans-serif;
+  }
+
+  
+        /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+        /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #D4A373;
+    
+  }
+  
+        /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+        /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+        /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+
+
 
 /*Footer stuff */ 
 
