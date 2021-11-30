@@ -48,6 +48,8 @@ nav{
     color: #FAEDCD;
   }
 
+  
+
  /* main pagee info FIX IMAGES AND GEET SHADOWS! */ 
 
 
@@ -236,15 +238,203 @@ nav{
     color: #FAEDCD;
   }
 
+/* BODY OF PAGE 2  */
+  .page_two_main{ 
+    display: grid;  
+    grid-template-rows: 1fr 1400px 500px 1fr ;
+    grid-template-columns: 1fr 1fr;
+}
+
+.page_two_img{ 
+
+    grid-column: 1/-1;
+    grid-row: 1/2 ; 
+    margin-left: 230px; 
+    margin-top: 200px; 
+    box-shadow: 5px 5px 10px black;
+}
+
+.book-worm-two{ 
+    grid-column: 1/-1;
+    grid-row: 1/2 ; 
+    margin-left:50px; 
+    font-size: 3.4em; 
+    text-align: center;
+    margin: 50px;
+    margin-left: 30px;
+    font-family:  'Noto Sans Mono', monospace; 
+}
+
+.about-bw{ 
+
+    grid-column: 1/-1;
+    grid-row: 1/2 ; 
+    margin-top:130px; 
+    text-align: center;
+    font-size: 1.8em;
+    margin-left: -30px; 
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+.page_two_title{ 
+    grid-column: 1/-1;
+    grid-row: 2/3 ; 
+    margin: 0 auto; 
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 60px; 
+    font-family:  'Noto Sans Mono', monospace; 
+    color:#8e6d4d; 
+}
+
+.what_answers{ 
+    grid-column: 1/2; 
+    grid-row: 2/3 ; 
+    margin: 0 auto; 
+    text-align: center;
+    font-size: 1.8em;
+    margin-top: 200px; 
+    padding:20px;
+    padding-right: 35px; 
+    padding-left: 60px;
+    margin-bottom: 300px;
+    font-family:  'Noto Sans Mono', monospace; 
+    color:#D4A373; 
+    background-color: #CCD5AE;
+}
+
+.page-two-text-one{ 
+
+    grid-column: 1/2; 
+    grid-row: 2/3 ; 
+    text-align: center;
+    margin-top: 250px; 
+    margin-left: 110px; 
+    padding: 35px;
+    font-size: 1.65em;
+    margin-bottom: 150px;
+    width: 60%; 
+    padding-bottom: -500px;
+    font-family: 'Zen Maru Gothic', sans-serif;
+
+}
+
+
+.what_do{ 
+
+    grid-column: 2/3; 
+    grid-row: 2/3 ; 
+    margin: 0 auto; 
+    text-align: center;
+    font-size: 1.8em;
+    margin-top: 200px; 
+    padding:20px;
+    padding-right: 35px; 
+    padding-left: 60px;
+    margin-bottom: 300px;
+    font-family:  'Noto Sans Mono', monospace; 
+    color:#D4A373; 
+    background-color: #CCD5AE;
+}
+
+
+.page-two-text-two{ 
+
+    grid-column: 2/3; 
+    grid-row: 2/3 ; 
+    text-align: center;
+    margin-top: 250px; 
+    margin-left: 136px; 
+    margin-bottom: 300px;
+    padding: 35px;
+    font-size: 1.65em;
+    width: 60%; 
+    padding-bottom: -500px;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+
+.what_answers:hover, .what_do:hover{ 
+
+    background-color: #E9EDC9;
+    box-shadow: 5px 5px 10px black;
+    border-color: black;
+}
+
+.img-two-one{ 
+    grid-column: 1/-1; 
+    grid-row: 3/4; 
+    border-radius: 100%;
+    margin-left:1050px; 
+    margin-top: -100px;
+    width: 450px;
+    box-shadow: 5px 5px 10px black;
+}
+.img-two-two{ 
+    grid-column: 1/-1; 
+    grid-row: 3/4; 
+    margin-top: -100px;
+    border-radius: 100%;
+    margin-left: 525px;
+    width: 450px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.img-two-three{ 
+    grid-column: 1/-1; 
+    grid-row: 3/4; 
+    margin-top: -100px;
+    border-radius: 100%;
+    width: 450px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.most-popluar{ 
+    grid-column: 1/-1; 
+    grid-row: 4/5; 
+    margin: 0 auto; 
+    text-align: center;
+    font-size: 2.3em;
+    font-family:  'Noto Sans Mono', monospace; 
+    color:#D4A373; 
+}
+
+.most-popluar-one{ 
+    grid-column: 1/-1; 
+    grid-row: 4/5; 
+    margin-top: 90px;
+    margin-left: 600px;
+}
+
+.most-popluar-two{ 
+    grid-column: 1/-1; 
+    grid-row: 4/5; 
+    margin-top: 90px;
+    margin-left: 800px;
+}
+
+.most-popluar-three{ 
+    grid-column: 1/-1; 
+    grid-row: 4/5; 
+    margin-top: 90px;
+    margin-left: 1000px;
+}
+
+.most-popluar-four{ 
+    grid-column: 1/-1; 
+    grid-row: 4/5; 
+    margin-top: 90px;
+    margin-left: 1200px;
+}
 
 
 
-
-/* The sign up stuff */
+/* The sign-up stuff */
 
 
      /* Bordered form */
 form {
+    grid-column: 1/-1; 
     border: 3px solid white;
     margin: 120px; 
     font-family:  'Noto Sans Mono', monospace; 
