@@ -66,7 +66,7 @@ nav{
     font-size: 3.4em; 
     text-align: center;
     margin: 50px;
-    margin-left: -30px;
+    margin-left: -20px;
     font-family:  'Noto Sans Mono', monospace; 
 
 }
@@ -75,13 +75,13 @@ nav{
     grid-column: 1/-1;
     grid-row: 1/2 ; 
     z-index: 1;
-    margin-top: 210px; 
-    margin-left: 360px; 
+    margin-top: 240px; 
+    margin-left: 390px; 
 }
 .top-img{ 
     grid-column: 1/-1;
     grid-row: 1/2 ; 
-    margin-left: 210px; 
+    margin-left: 240px; 
     margin-top: 170px; 
 }
 
@@ -241,7 +241,7 @@ nav{
 /* BODY OF PAGE 2  */
   .page_two_main{ 
     display: grid;  
-    grid-template-rows: 1fr 1400px 500px 1fr ;
+    grid-template-rows: 1fr 1400px 500px 600px 1200px;
     grid-template-columns: 1fr 1fr;
 }
 
@@ -311,7 +311,7 @@ nav{
     margin-top: 250px; 
     margin-left: 110px; 
     padding: 35px;
-    font-size: 1.65em;
+    font-size: 1.5em;
     margin-bottom: 150px;
     width: 60%; 
     padding-bottom: -500px;
@@ -347,7 +347,7 @@ nav{
     margin-left: 136px; 
     margin-bottom: 300px;
     padding: 35px;
-    font-size: 1.65em;
+    font-size: 1.55em;
     width: 60%; 
     padding-bottom: -500px;
     font-family: 'Zen Maru Gothic', sans-serif;
@@ -361,6 +361,7 @@ nav{
     border-color: black;
 }
 
+
 .img-two-one{ 
     grid-column: 1/-1; 
     grid-row: 3/4; 
@@ -370,6 +371,7 @@ nav{
     width: 450px;
     box-shadow: 5px 5px 10px black;
 }
+
 .img-two-two{ 
     grid-column: 1/-1; 
     grid-row: 3/4; 
@@ -393,40 +395,230 @@ nav{
     grid-column: 1/-1; 
     grid-row: 4/5; 
     margin: 0 auto; 
+    margin-top: -40px;
     text-align: center;
     font-size: 2.3em;
     font-family:  'Noto Sans Mono', monospace; 
     color:#D4A373; 
 }
 
-.most-popluar-one{ 
-    grid-column: 1/-1; 
-    grid-row: 4/5; 
-    margin-top: 90px;
-    margin-left: 600px;
-}
 
 .most-popluar-two{ 
     grid-column: 1/-1; 
     grid-row: 4/5; 
     margin-top: 90px;
-    margin-left: 800px;
+    margin-left: 750px;
+    box-shadow: 5px 5px 10px black;
+    
 }
 
 .most-popluar-three{ 
     grid-column: 1/-1; 
     grid-row: 4/5; 
     margin-top: 90px;
-    margin-left: 1000px;
+    margin-left: 950px;
+    box-shadow: 5px 5px 10px black;
 }
 
 .most-popluar-four{ 
     grid-column: 1/-1; 
     grid-row: 4/5; 
     margin-top: 90px;
-    margin-left: 1200px;
+    margin-left: 1150px;
+    box-shadow: 5px 5px 10px black;
 }
 
+.most-popluar-five{ 
+    grid-column: 1/-1; 
+    grid-row: 4/5; 
+    margin-top: 90px;
+    margin-left: 550px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.most-popluar-six{ 
+    grid-column: 1/-1; 
+    grid-row: 4/5; 
+    margin-top: 90px;
+    margin-left: 350px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.most-popluar-seven{ 
+    grid-column: 1/-1; 
+    grid-row: 4/5; 
+    margin-top: 90px;
+    margin-left: 150px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.rating-bw{ 
+    grid-column: 1/-1; 
+    grid-row: 5/6;
+    text-align: center;
+    font-size: 2.3em;
+    font-family:  'Noto Sans Mono', monospace; 
+    color:#D4A373; 
+    margin-top: -50px;
+    
+}
+
+.six_of_crows{ 
+    grid-column: 2/3; 
+    grid-row: 5/6; 
+    box-shadow: 5px 5px 10px black;
+    margin-left:280px; 
+    margin-top: 110px; 
+
+}
+
+.Skyward{ 
+    grid-column: 2/3; 
+    grid-row: 5/6; 
+    box-shadow: 5px 5px 10px black;
+    margin-left:280px; 
+    margin-top: 520px; 
+}
+
+.lying-one{ 
+    grid-column: 2/3; 
+    grid-row: 5/6; 
+    box-shadow: 5px 5px 10px black;
+    margin-left:280px; 
+    margin-top: 920px; 
+}
+.rating-books{ 
+    grid-column: 1/2; 
+    grid-row: 5/6; 
+    margin-top: 100px;
+    margin-left: 158px; 
+    font-family:  'Noto Sans Mono', monospace; 
+    text-align: center;
+    
+}
+
+.rating-books-2{
+
+    grid-column: 1/2; 
+    grid-row: 5/6; 
+    margin-top: 500px;
+    margin-left: 158px; 
+    font-family:  'Noto Sans Mono', monospace; 
+    text-align: center;
+}
+
+
+.rating-books-3{ 
+
+  grid-column: 1/2; 
+    grid-row: 5/6; 
+    margin-top: 900px;
+    margin-left: 158px; 
+    font-family:  'Noto Sans Mono', monospace; 
+    text-align: center;
+    
+}
+* {
+    box-sizing: border-box;
+
+  }
+
+  
+  .heading {
+    font-size: 21px;
+    margin-right: 25px;
+  }
+  
+  .fa {
+    font-size: 25px;
+  }
+  
+  .checked {
+    color: orange;
+  }
+  
+  /* Three column layout */
+  .side {
+    float: left;
+    width: 15%;
+    margin-top: 10px;
+  }
+  
+  .middle {
+    float: left;
+    width: 70%;
+    margin-top: 10px;
+  }
+  
+  /* Place text to the right */
+  .right {
+    text-align: right;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The bar container */
+  .bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Individual bars */
+  .bar-5 {width: 60%; height: 18px; background-color: #04AA6D;}
+  .bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+  .bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+  .bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+  .bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+
+
+  .bar-5-1 {width: 15%; height: 18px; background-color: #04AA6D;}
+  .bar-4-1{width: 20%; height: 18px; background-color: #2196F3;}
+  .bar-3-1 {width: 56%; height: 18px; background-color: #00bcd4;}
+  .bar-2-1 {width: 4%; height: 18px; background-color: #ff9800;}
+  .bar-1-1 {width: 15%; height: 18px; background-color: #f44336;}
+
+  .bar-5-2 {width: 75%; height: 18px; background-color: #04AA6D;}
+  .bar-4-2{width: 60%; height: 18px; background-color: #2196F3;}
+  .bar-3-2 {width: 30%; height: 18px; background-color: #00bcd4;}
+  .bar-2-2 {width: 20%; height: 18px; background-color: #ff9800;}
+  .bar-1-2 {width: 38%; height: 18px; background-color: #f44336;}
+  
+  /* Responsive layout - make the columns stack on top of each other instead of next to each other */
+  @media (max-width: 400px) {
+    .side, .middle {
+      width: 100%;
+    }
+    /* Hide the right column on small screens */
+    .right {
+      display: none;
+    }
+  }
+
+.log-in-here{ 
+
+    text-align: center;
+    margin: 0 auto; 
+    margin-top: 1300px;
+    font-size: 1.7em;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    color: #8e9b62; 
+    grid-column: 1/-1; 
+    grid-row: 5/6; 
+
+}
+
+.log-in-here:hover{ 
+  font-weight: bolder;
+  font-size: 2.1em;
+
+}
 
 
 /* The sign-up stuff */
@@ -436,8 +628,9 @@ nav{
 form {
     grid-column: 1/-1; 
     border: 3px solid white;
-    margin: 120px; 
+    margin: 150px; 
     font-family:  'Noto Sans Mono', monospace; 
+    margin-top: 500px;
   }
   
 
@@ -449,6 +642,7 @@ form {
 
   }
             /* Full-width inputs */
+
   input[type=text], input[type=password] {
     width: 100%;
     padding: 12px 20px;
