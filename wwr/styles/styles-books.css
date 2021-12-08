@@ -67,7 +67,7 @@ nav{
     font-size: 3.4em; 
     text-align: center;
     margin: 50px;
-    margin-left: -20px;
+    margin-left: 30px;
     font-family:  'Noto Sans Mono', monospace; 
 
 }
@@ -77,12 +77,12 @@ nav{
     grid-row: 1/2 ; 
     z-index: 1;
     margin-top: 240px; 
-    margin-left: 390px; 
+    margin-left: 410px; 
 }
 .top-img{ 
     grid-column: 1/-1;
     grid-row: 1/2 ; 
-    margin-left: 210px; 
+    margin-left: 230px; 
     margin-top: 170px; 
 }
 
