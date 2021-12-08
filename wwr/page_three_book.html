@@ -4,60 +4,139 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/styles-books.css">
     <title>Book Worm</title>
 </head>
 <body>
 
     <header>
-        <a id="logo_link" href="index.html">
-            <img class="logo" src="images/book_worm_logo.20.png" alt="book_worm Logo" width="300" height="300">
-        </a>
-         
-        <nav >
-            <a href="index_book.html"> Home</a>
-            <a href="page_two_book.html"> Page 2</a>
-            <a href="page_three_book.html"> Page 3</a>
-            <a href="site-plan_books.html"> Site Plan</a>
-            <a href="contactus.html">Contact Us</a>
-        </nav>
+        <div class = "div_info"> 
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/book_worm_logo.20.png" alt="book_worm Logo" width="150" height="140">
+            </a>
+            <nav id = "navbar">
+                <a href="index_book.html"> Home</a>
+                <a href="page_two_book.html"> Page 2</a>
+                <a href="page_three_book.html"> Page 3</a>
+                <a href="site-plan_books.html"> Site Plan</a>
+            </nav>
+        </div>      
         
-    </header>
+        
+        </header>
 
     <main class = "page_three_main"> 
-    <img src="images/open_books.jpg" alt="image for page3" width="600" height="400">
 
 
-    <div class = "book sections"> 
-    <h2> Read books</h2>
-    <p> To All the Boys I've Loved Before by Jenny Han  </p>
+        <h1 class = 'book-worm-three'> Book-Worm </h1>
+        <h2 class = 'rating-book-worm'> Track your reading </h2>
+        <div class = "top-img-three"> 
+        <img src="images/book_wall.jpg" alt="image for page3" width= "1050">  
+        
+        <img class = "book-worm-logo-three" src="images/book_worm_logo.20.png" alt="image for page3" width= "700" >  
+        </div>
+
+        <p class = "text-over-img"> While ‘book-worm’ is a website for one to check book recommendations, the main purpose of the site is for readers 
+            to track and rate the books they have read. With the assistance of the recommendations found in ‘book-worm,’ readers
+             will be able to be confident in their book choices and will not hesitate to read books. Some of the activities visitors 
+             will be able to do will be: rate books, sort books into different piles ( like a to-read pile, read pile… ), submit a video 
+             recording of ratings, host zooms for book clubs, create clubs, create 'personal genres', and track their reading goals.
+              With all of these activities for viewers will not have to have 4 websites open to do the same things. In order to provide 
+              all of these activities on 'book-worm', we need the viewer's input. When viewers input their ratings, favorite and least favorite books,
+               'book-worm' will be able to provide more activities for people to participate in and enjoy. 
+        </p> 
+
+
+    
+    <h2 class = "title_one-three"> Read books</h2>
+    <div class = "book-read-sections"> 
     <img src="images/to-all-the-boys-i-loved.jpg" alt="image for page" width="150" height="250">
-
-    <h2>To-read books </h2>
-    <p> Every Last Word by Tamara Ireland Stone </p>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+    <img src="images/six-crows.jpg" alt="image for page" width="150" height="250">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+    <img src="images/one-of-us-is-lying.jpg" alt="image for page" width="150" height="250">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+    <img src="images/skyward.jpg" alt="image for page" width="150" height="250">
+    <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+    </div>
+    
+    <h2 class = "title_two-three"> To-read books </h2>
+    <div class = "to-book-read-sections"> 
     <img src="images/every-last-word.jpg" alt="image for page"  width="150" height="250">
+    </div>
 
-    <h2>Friends book library</h2>
-    <p> They Both Die at the End by Adam Silvera  </p>
+    <h2 class = "title_three-three"> Friends book library</h2>
+    <div class = "friend-book-read-sections"> 
     <img src="images/they-both-die-2.jpg" alt="image for page"  width="150" height="250">
     </div>
 
-    <div class = "search-book-review"> 
-        <h2> search book </h2>
-        <p>Please rate the book you have read</p> 
-    </div>
+    <h2 class = "make_your_own"> Make your own club! </h2>
+    <div class="container_1">
+        <form action="action_page.php">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">First Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Last Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="country">Country</label>
+            </div>
+            <div class="col-75">
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">About Your Club</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
 
-    <div class = "chat with friends">
-        <h2> Chat with friends</h2> 
-        <p> Talk here..</p> 
+      
+     
 
-    </div> 
-    <div class="search-friends"> 
-        <h2> Search your friends</h2>
-        <ul>
-            <p> Bob</p>
-            <p>Fred</p>  
-        </ul>
-    </div>
+  
+
     </main>
 
 
