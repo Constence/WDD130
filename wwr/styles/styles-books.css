@@ -18,26 +18,26 @@ body{
 
  .div_info{ 
     background-color: #CCD5AE;  
-
  }
 nav{ 
     text-align: center;
     text-transform: none;
     margin-top: -200px; 
-    margin-left: 200px; 
+    margin-right: 200px; 
     padding: 100px 100px 0px 100px; 
     font-size: 2.3em; 
     list-style-type: none;
     display: flex;
     font-family: 'Zen Maru Gothic', sans-serif;
     font-weight: bold;
+    justify-content: space-around;
 }
 
   nav a {
     padding:1em;
     min-width: 120px;
     text-decoration: none;
-    padding: 20px;
+    padding: 100px;
   }
 
   nav a:link, nav a:visited {
@@ -81,7 +81,7 @@ nav{
 .top-img{ 
     grid-column: 1/-1;
     grid-row: 1/2 ; 
-    margin-left: 240px; 
+    margin-left: 210px; 
     margin-top: 170px; 
 }
 
@@ -728,4 +728,254 @@ footer a{
 footer a:hover{
     text-decoration: underline; 
     color:#E9EDC9; 
+}
+
+
+
+/*PAGE TWO stuff */ 
+
+
+
+/*nav stuff */ 
+.logo{ 
+  z-index: 1; 
+  margin-left: -10px;
+}
+
+.div_info{ 
+  background-color: #CCD5AE;  
+
+}
+nav{ 
+  text-align: center;
+  text-transform: none;
+  margin-top: -200px; 
+  margin-left: 200px; 
+  padding: 100px 100px 0px 100px; 
+  font-size: 2.3em; 
+  list-style-type: none;
+  display: flex;
+  font-family: 'Zen Maru Gothic', sans-serif;
+  font-weight: bold;
+}
+
+nav a {
+  padding:1em;
+  min-width: 120px;
+  text-decoration: none;
+  padding: 20px;
+}
+
+nav a:link, nav a:visited {
+  color: #D4A373;
+}
+
+nav a:hover {
+  color: #FAEDCD;
+}
+
+
+/*Main page three */ 
+.page_three_main{ 
+  display: grid;  
+  grid-template-rows: 1000px 400px 1fr 600px 1fr;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-gap: 60px;
+}
+
+.book-worm-three{ 
+  grid-column: 1/-1;
+  grid-row: 1/2 ; 
+  margin-left:50px; 
+  font-size: 3.4em; 
+  text-align: center;
+  margin: 90px;
+  margin-left: 30px;
+  font-family:  'Noto Sans Mono', monospace; 
+
+}
+
+.rating-book-worm{ 
+
+  grid-column: 1/-1;
+  grid-row: 1/2 ; 
+  margin-top:130px; 
+  text-align: center;
+  font-size: 1.8em;
+  margin-left: -52px;  
+  margin-top: 180px; 
+  font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+.top-img-three{ 
+
+  grid-column: 1/-1;
+  grid-row: 1/2 ; 
+  margin-left: 210px; 
+  margin-top: 265px; 
+}
+
+
+.book-worm-logo-three{ 
+
+  grid-column: 1/-1;
+  grid-row: 1/2 ; 
+  z-index: 1;
+  margin-top:-900px; 
+  margin-left: 200px; 
+}
+.text-over-img{ 
+  font-family: 'Zen Maru Gothic', sans-serif;
+  padding: 30px; 
+  grid-column: 1/-1;
+  grid-row: 2/3 ; 
+  text-align: left;
+  background-color: #CCD5AE;
+  width: 85%;  
+  font-size: 1.5em;
+  text-align: center;
+  box-shadow: 1px 1px 8px black;
+  margin-left: 110px; 
+  margin-bottom: 10px; 
+}
+
+
+.books-stuff{ 
+  margin: 30px; 
+
+}
+
+.title_one-three { 
+
+  grid-column: 1/2;
+  grid-row: 3/4; 
+  font-family:  'Noto Sans Mono', monospace; 
+  text-align: center;
+}
+
+.title_two-three{ 
+
+  grid-column: 2/3;
+  grid-row: 3/4; 
+  font-family:  'Noto Sans Mono', monospace; 
+  text-align: center;
+}
+
+.title_three-three{ 
+
+  grid-column: 3/4;
+  grid-row: 3/4; 
+  font-family:  'Noto Sans Mono', monospace; 
+  text-align: center;
+
+}
+.book-read-sections{ 
+  grid-column: 1/2;
+  grid-row: 3/4; 
+  margin: 25px;
+  text-align: center;
+  border-style: solid;
+  border-color: #D4A373;
+}
+
+
+.to-book-read-sections{ 
+  grid-column: 2/3;
+  grid-row:3/4; 
+  margin:70px; 
+  text-align: center;
+  border-style: solid;
+  border-color: #D4A373;
+}
+
+
+.friend-book-read-sections{ 
+  grid-column: 3/4;
+  grid-row:3/4; 
+  margin:70px;
+  text-align: center;
+  border: 5px; 
+  border-style: solid;
+  border-color: #D4A373;
+}
+
+.make_your_own{ 
+  font-family:  'Noto Sans Mono', monospace; 
+  font-size: 2.6em; 
+  color: #D4A373; 
+  text-align: center;
+  grid-column: 1/-1;
+  grid-row: 4/5; 
+  
+}
+
+
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  padding:5px; 
+  margin:13px; 
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #97a95e;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Style the container */
+.container_1 {
+  margin:20px; 
+  border-radius: 5px;
+  padding: 40px;
+  grid-column: 1/-1;
+  grid-row: 4/5; 
+  margin-top:-400px;
+  font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+  font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 }
