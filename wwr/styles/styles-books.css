@@ -6,7 +6,8 @@
 
 body{ 
     background-color :#FAEDCD; 
-}
+    margin: 0px; 
+} 
 
  /*Top nav stuff */ 
 
@@ -249,7 +250,7 @@ nav{
 
     grid-column: 1/-1;
     grid-row: 1/2 ; 
-    margin-left: 230px; 
+    margin-left: 260px; 
     margin-top: 200px; 
     box-shadow: 5px 5px 10px black;
 }
